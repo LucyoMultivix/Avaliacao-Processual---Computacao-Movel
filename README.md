@@ -1,1 +1,0 @@
-# Avalia-o-Processual---Computa-o-Movel
