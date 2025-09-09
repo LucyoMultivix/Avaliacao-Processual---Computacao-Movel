@@ -34,6 +34,23 @@ A lógica da aplicação é a seguinte:
 - **Exibição no Console**: Para cada estudante, o sistema exibe no terminal o nome, ID e status de aprovação/reprovação.
 
 ---
+
+## 💻 Ferramentas e Ambiente Utilizados
+
+- O projeto e aplicação foi feita e executada no navegador no site dartpad.dev
+
+![Tela da aplicação](parte_1.png)
+
+---
+
+## ▶️ Instruções de Execução
+
+**Copie e Cole**:
+
+Abra o site dartpad.dev, copie o código do arquivo parte_1, cole no editor de codigos do site e clique em RUN
+
+---
+
 # PARTE 3
 
 ## 📌 Visão Geral
@@ -115,7 +132,7 @@ Abra o terminal e digite:
 
 flutter create nome_do_projeto
 
-2. **Substitua o arquivo `main.dart` gerado**:
+2. **Substitua o arquivo `main.dart` gerado pelo arquivo parte_3.dart**:
 
 Navegue até o diretório do projeto:
 
@@ -131,4 +148,5 @@ flutter run
 
 
 O terminal irá listar os dispositivos disponíveis. Escolha o número correspondente ao navegador (ex: Chrome) ou outro dispositivo da sua preferência.
+
 
