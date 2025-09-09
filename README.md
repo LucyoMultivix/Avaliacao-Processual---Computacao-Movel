@@ -1,4 +1,40 @@
-# Avaliação Processual - Aplicação Flutter
+# Avaliação Processual
+# PARTE 1
+# Gerenciamento de Estudantes - Aplicação Console em Dart
+
+## 📌 Visão Geral
+
+Este projeto foi desenvolvido como uma aplicação console em **Dart** para simular o gerenciamento de dados de estudantes. A lógica do programa é implementada sem a interface gráfica, sendo executada diretamente no terminal. A aplicação faz o gerenciamento da média dos estudantes, exibindo se o estudante está aprovado ou reprovado com base na sua média.
+
+O objetivo desta aplicação é demonstrar o uso de classes, listas, laços de repetição e condicionais em Dart, simulando a lógica de um sistema simples de gerenciamento de estudantes.
+
+---
+
+## 📦 Classe e Atributos
+
+A classe `Estudante` modela um estudante com os seguintes atributos:
+
+- **id** (`int`): Identificador único do estudante.
+- **nome** (`String`): Nome do estudante.
+- **media** (`double`): Média final do estudante.
+
+A lógica da aplicação é a seguinte:
+
+- Uma lista de estudantes é criada no início, contendo instâncias da classe `Estudante`.
+- A aplicação percorre essa lista e verifica se a média do estudante é inferior à nota de corte (7.0).
+- Para estudantes com média inferior a 7.0, o status de reprovação é exibido, e para os demais, o status de aprovação.
+
+---
+
+## 🔁 Lógica Implementada
+
+- **Lista de Estudantes**: A lista de estudantes contém 5 instâncias da classe `Estudante`, com diferentes médias de desempenho.
+- **Laço de Repetição**: A aplicação utiliza um laço `for` para percorrer a lista e avaliar a média de cada estudante.
+- **Condicional `if/else`**: A média de cada estudante é verificada, e uma mensagem é exibida no console indicando se o estudante está aprovado ou reprovado.
+- **Exibição no Console**: Para cada estudante, o sistema exibe no terminal o nome, ID e status de aprovação/reprovação.
+
+---
+# PARTE 3
 
 ## 📌 Visão Geral
 
@@ -95,3 +131,4 @@ flutter run
 
 
 O terminal irá listar os dispositivos disponíveis. Escolha o número correspondente ao navegador (ex: Chrome) ou outro dispositivo da sua preferência.
+
