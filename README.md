@@ -55,7 +55,7 @@ A interface foi criada com os seguintes widgets:
 - `ListTile` com ícones: mostra o nome, média e status visual (aprovado/reprovado) de cada estudante.
 - `FloatingActionButton`: permite a adição interativa de novos estudantes com médias aleatórias.
 
-![Tela da aplicação](execucao.png)
+![Tela da aplicação](parte_3.png)
 
 ---
 
@@ -92,5 +92,6 @@ Em seguida, abra a pasta `lib` e substitua o conteúdo do arquivo `main.dart` po
 No terminal, dentro da raiz do projeto, execute:
 
 flutter run
+
 
 O terminal irá listar os dispositivos disponíveis. Escolha o número correspondente ao navegador (ex: Chrome) ou outro dispositivo da sua preferência.
