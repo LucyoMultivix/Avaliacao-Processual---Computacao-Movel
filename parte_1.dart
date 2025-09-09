@@ -10,11 +10,11 @@ class Estudante {
 void main() {
   // Lista de estudantes com dados de exemplo
   List<Estudante> estudantes = [
-    Estudante(id: 1, nome: "João", media: 7.5),
-    Estudante(id: 2, nome: "Maria", media: 8.9),
-    Estudante(id: 3, nome: "Pedro", media: 5.0),
-    Estudante(id: 4, nome: "Ana", media: 6.3),
-    Estudante(id: 5, nome: "Lucas", media: 9.2),
+    Estudante(id: 1, nome: "Armandinho", media: 7.5),
+    Estudante(id: 2, nome: "Cristiano Ronaldo", media: 5.9),
+    Estudante(id: 3, nome: "Heitor", media: 8.2),
+    Estudante(id: 4, nome: "Lucyo", media: 6.0),
+    Estudante(id: 5, nome: "Maria", media: 4.7),
   ];
 
   // Laço de repetição para iterar sobre a lista de estudantes
@@ -26,4 +26,5 @@ void main() {
       print("Estudante ${estudante.nome} (ID: ${estudante.id}) está aprovado com média ${estudante.media}");
     }
   }
+
 }
