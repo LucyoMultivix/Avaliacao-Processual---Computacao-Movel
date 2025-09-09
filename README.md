@@ -51,6 +51,84 @@ Abra o site dartpad.dev, copie o código do arquivo parte_1, cole no editor de c
 
 ---
 
+# PARTE 2
+
+## 📌 Visão Geral
+
+Este projeto foi desenvolvido como uma aplicação **Flutter** para exibir os dados de estudantes em uma interface gráfica. A lógica do sistema foi adaptada a partir de uma aplicação de console, transformando-a em uma aplicação mobile que utiliza **widgets do Flutter** para exibir informações sobre estudantes, como o nome, média e status de aprovação ou reprovação.
+
+A aplicação exibe uma lista de estudantes e seus status de aprovação na tela inicial, utilizando widgets como `Scaffold`, `AppBar`, `ListView` e `ListTile`.
+
+---
+
+## 📦 Classe e Atributos
+
+A classe `Estudante` foi mantida e modela um estudante com os seguintes atributos:
+
+- **id** (`int`): Identificador único do estudante.
+- **nome** (`String`): Nome do estudante.
+- **media** (`double`): Média final do estudante.
+
+---
+
+## 🔁 Lógica Implementada
+
+- **Lista de Estudantes**: Cinco estudantes são criados na inicialização da aplicação.
+- **Verificação de Aprovação**: Para cada estudante, a média é verificada para determinar se ele está aprovado ou reprovado. A média de corte foi definida como **7.0**.
+- **Interface Flutter**: A interface exibe a lista de estudantes em uma tela utilizando o `ListView.builder` para renderizar dinamicamente a lista.
+- **Ícones de Status**: O status de aprovação é indicado por um ícone de **check_circle** (aprovado) ou **cancel** (reprovado), com cores diferenciadas (verde para aprovado e vermelho para reprovado).
+
+---
+
+## 🖼️ Interface Flutter
+
+A interface foi construída utilizando os seguintes widgets principais:
+
+- **`MaterialApp`**: Define o aplicativo com tema e navegação básica.
+- **`Scaffold`**: Fornece a estrutura básica da tela com `AppBar` e `body`.
+- **`ListView.builder`**: Cria a lista de estudantes de forma dinâmica.
+- **`ListTile`**: Exibe informações de cada estudante, como nome e média, além do ícone de aprovação ou reprovação.
+- **`AppBar`**: Exibe o título da aplicação no topo da tela.
+
+![Tela da aplicação](parte_2.png)
+
+---
+
+## 💻 Ferramentas e Ambiente Utilizados
+
+- **Visual Studio Code (VS Code)** como editor principal.
+- **Flutter SDK** e **Dart SDK** devidamente instalados.
+- A aplicação foi executada via **Chrome (navegador)** utilizando:
+
+flutter run
+
+Em seguida escolhemos a opção de device navegador (Nós usamos navegador para testar porque o Android Studio não fazia nenhum emulador compatível e o Windows também não queria rodar).
+
+---
+
+1. **Crie um novo projeto Flutter**:
+
+Abra o terminal e digite:
+
+flutter create nome_do_projeto
+
+2. **Substitua o arquivo `main.dart` gerado pelo arquivo parte_2.dart**:
+
+Navegue até o diretório do projeto:
+
+cd nome_do_projeto
+
+Em seguida, abra a pasta `lib` e substitua o conteúdo do arquivo `main.dart` por este que foi fornecido no repositório.
+
+3. **Execute o projeto Flutter**:
+
+No terminal, dentro da raiz do projeto, execute:
+
+flutter run
+
+
+O terminal irá listar os dispositivos disponíveis. Escolha o número correspondente ao navegador (ex: Chrome) ou outro dispositivo da sua preferência.
+
 # PARTE 3
 
 ## 📌 Visão Geral
@@ -148,5 +226,6 @@ flutter run
 
 
 O terminal irá listar os dispositivos disponíveis. Escolha o número correspondente ao navegador (ex: Chrome) ou outro dispositivo da sua preferência.
+
 
 
