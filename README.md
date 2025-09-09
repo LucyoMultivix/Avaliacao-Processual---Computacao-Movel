@@ -106,6 +106,8 @@ Em seguida escolhemos a opção de device navegador (Nós usamos navegador para 
 
 ---
 
+## ▶️ Instruções de Execução
+
 1. **Crie um novo projeto Flutter**:
 
 Abra o terminal e digite:
@@ -226,6 +228,7 @@ flutter run
 
 
 O terminal irá listar os dispositivos disponíveis. Escolha o número correspondente ao navegador (ex: Chrome) ou outro dispositivo da sua preferência.
+
 
 
 
